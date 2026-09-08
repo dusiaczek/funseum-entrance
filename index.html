@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun-Seum | Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="entrance-container">
+        <!-- Architectural Arches -->
+        <div class="arch-container">
+            <div class="arch arch-outer"></div>
+            <div class="arch arch-middle"></div>
+            <div class="arch arch-inner"></div>
+        </div>
+
+        <!-- Double Door -->
+        <div class="door-frame">
+            <div class="door door-left" id="doorLeft">
+                <div class="door-panel">
+                    <div class="door-detail door-detail-top"></div>
+                    <div class="door-detail door-detail-middle"></div>
+                    <div class="door-detail door-detail-bottom"></div>
+                </div>
+            </div>
+            <div class="door door-right" id="doorRight">
+                <div class="door-panel">
+                    <div class="door-detail door-detail-top"></div>
+                    <div class="door-detail door-detail-middle"></div>
+                    <div class="door-detail door-detail-bottom"></div>
+                </div>
+            </div>
+            <div class="door-center-line"></div>
+        </div>
+
+        <!-- Platform -->
+        <div class="platform">
+            <div class="platform-step"></div>
+            <div class="platform-step platform-step-2"></div>
+            <div class="platform-step platform-step-3"></div>
+        </div>
+
+        <!-- Welcome Text -->
+        <div class="welcome-text">
+            <h1>Welcome to</h1>
+            <h2>Fun-Seum</h2>
+            <p>Click the doors to enter</p>
+        </div>
+    </div>
+
+    <!-- Next Page Content (Hidden) -->
+    <div class="content-page" id="contentPage">
+        <div class="content-wrapper">
+            <h1>Welcome Inside!</h1>
+            <p>The Fun-Seum awaits your exploration...</p>
+            <button onclick="goBack()">← Back to Entrance</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
